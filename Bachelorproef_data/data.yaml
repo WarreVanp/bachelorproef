@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['nutri_A', 'nutri_B', 'nutri_C', 'nutri_D', 'shelf_bottom', 'shelf_middle', 'shelf_top']
+
+roboflow:
+  workspace: warres-workspace-qpbcr
+  project: bachelorproef
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/warres-workspace-qpbcr/bachelorproef/dataset/1
